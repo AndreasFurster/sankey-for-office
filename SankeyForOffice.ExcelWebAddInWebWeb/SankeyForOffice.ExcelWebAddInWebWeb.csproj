@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2de267ab-1c0d-484a-bf90-92cc8afca531}</ProjectGuid>
+    <ProjectGuid>{2DE267AB-1C0D-484A-BF90-92CC8AFCA531}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SankeyForOffice.ExcelWebAddInWebWeb</RootNamespace>
@@ -41,8 +41,25 @@
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
-  
-  <ItemGroup>     <None Include="SankeyForOffice.ExcelWebAddInWebWebManifest\SharePointProjectItem.spdata">       <SharePointProjectItemId>{6309cb81-e018-4d3a-8372-ffe373848ee3}</SharePointProjectItemId>     </None>     <Content Include="SankeyForOffice.ExcelWebAddInWebWebManifest\SankeyForOffice.ExcelWebAddInWebWeb.xml" >       <OpcRelationship>manifest-oemanifest</OpcRelationship>     </Content>   </ItemGroup>
+  <ItemGroup>
+    <None Include="SankeyForOffice.ExcelWebAddInWebWebManifest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6309cb81-e018-4d3a-8372-ffe373848ee3}</SharePointProjectItemId>
+    </None>
+    <Content Include="SankeyForOffice.ExcelWebAddInWebWebManifest\SankeyForOffice.ExcelWebAddInWebWeb.xml">
+      <OpcRelationship>manifest-oemanifest</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SankeyForOffice.ExcelWebAddInWebWebWeb\SankeyForOffice.ExcelWebAddInWebWebWeb.csproj">
+      <Project>{568CE53F-922A-4A9F-8561-5B69631BD7BA}</Project>
+      <Name>SankeyForOffice.ExcelWebAddInWebWebWeb</Name>
+      <Private>True</Private>
+      <RoleType>Web</RoleType>
+      <OutputItemType>SharePointWebProjectOutput</OutputItemType>
+      <RoleName>SankeyForOffice.ExcelWebAddInWebWebWeb</RoleName>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
