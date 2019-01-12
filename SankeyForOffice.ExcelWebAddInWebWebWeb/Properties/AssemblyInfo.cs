@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SankeyForOffice.ExcelWebAddInWeb")]
+[assembly: AssemblyTitle("SankeyForOffice.ExcelWebAddInWebWebWeb")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SankeyForOffice.ExcelWebAddInWeb")]
+[assembly: AssemblyProduct("SankeyForOffice.ExcelWebAddInWebWebWeb")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e0ab4d70-92cc-4eaa-a06d-313597087b04")]
+[assembly: Guid("568ce53f-922a-4a9f-8561-5b69631bd7ba")]
 
 // Version information for an assembly consists of the following four values:
 //

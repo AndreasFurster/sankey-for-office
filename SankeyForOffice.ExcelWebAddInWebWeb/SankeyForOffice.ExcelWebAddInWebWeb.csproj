@@ -3,21 +3,21 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{714E6979-0615-4A69-B6D7-F61E7032AFB2}</ProjectGuid>
+    <ProjectGuid>{2de267ab-1c0d-484a-bf90-92cc8afca531}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SankeyForOffice.ExcelWebAddIn</RootNamespace>
-    <AssemblyName>SankeyForOffice.ExcelWebAddIn</AssemblyName>
+    <RootNamespace>SankeyForOffice.ExcelWebAddInWebWeb</RootNamespace>
+    <AssemblyName>SankeyForOffice.ExcelWebAddInWebWeb</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
-    <AppFeaturePartId>{62ba7590-fa21-4c48-b1f6-1646f32f85d2}</AppFeaturePartId>
-    <WspPartId>{049c5641-3066-45ab-9ab5-76dc4c0a76c3}</WspPartId>
-    <WorkflowPartId>{553dbba4-d94e-4f2a-a6b2-d3fc55cefb82}</WorkflowPartId>
-    <CspkgPartId>{2a288f08-a4bb-4dae-aab6-8bb0d1ac7455}</CspkgPartId>
-    <SqlPackagePartId>{957dec41-ae8a-4bb9-9865-650719e97b22}</SqlPackagePartId>
+    <AppFeaturePartId>{efa9db5e-2b49-46b6-b35d-89d9a7b3fdce}</AppFeaturePartId>
+    <WspPartId>{714490fb-bfd8-4848-b77b-c35309929252}</WspPartId>
+    <WorkflowPartId>{37c4ffb7-3374-4da9-b004-fdd40110d2d1}</WorkflowPartId>
+    <CspkgPartId>{780ec2e6-9aba-429d-bb11-216de048bb2d}</CspkgPartId>
+    <SqlPackagePartId>{9dcb4926-09b9-4086-aefc-fb6d7aa1c28f}</SqlPackagePartId>
     <ProjectMode>OfficeApp</ProjectMode>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
@@ -41,25 +41,8 @@
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="SankeyForOffice.ExcelWebAddInManifest\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{b70b9532-1a37-46c8-86a8-0834e7d6df98}</SharePointProjectItemId>
-    </None>
-    <Content Include="SankeyForOffice.ExcelWebAddInManifest\SankeyForOffice.ExcelWebAddIn.xml">
-      <OpcRelationship>manifest-oemanifest</OpcRelationship>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SankeyForOffice.ExcelWebAddInWeb\SankeyForOffice.ExcelWebAddInWeb.csproj">
-      <Project>{E0AB4D70-92CC-4EAA-A06D-313597087B04}</Project>
-      <Name>SankeyForOffice.ExcelWebAddInWeb</Name>
-      <Private>True</Private>
-      <RoleType>Web</RoleType>
-      <OutputItemType>SharePointWebProjectOutput</OutputItemType>
-      <RoleName>SankeyForOffice.ExcelWebAddInWeb</RoleName>
-      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
+  
+  <ItemGroup>     <None Include="SankeyForOffice.ExcelWebAddInWebWebManifest\SharePointProjectItem.spdata">       <SharePointProjectItemId>{6309cb81-e018-4d3a-8372-ffe373848ee3}</SharePointProjectItemId>     </None>     <Content Include="SankeyForOffice.ExcelWebAddInWebWebManifest\SankeyForOffice.ExcelWebAddInWebWeb.xml" >       <OpcRelationship>manifest-oemanifest</OpcRelationship>     </Content>   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E0AB4D70-92CC-4EAA-A06D-313597087B04}</ProjectGuid>
+    <ProjectGuid>{568CE53F-922A-4A9F-8561-5B69631BD7BA}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SankeyForOffice.ExcelWebAddInWeb</RootNamespace>
-    <AssemblyName>SankeyForOffice.ExcelWebAddInWeb</AssemblyName>
+    <RootNamespace>SankeyForOffice.ExcelWebAddInWebWebWeb</RootNamespace>
+    <AssemblyName>SankeyForOffice.ExcelWebAddInWebWebWeb</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44390</IISExpressSSLPort>
+    <IISExpressSSLPort>44306</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -68,8 +68,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App.css" />
-    <Content Include="App.js" />
     <Content Include="Content\fabric.components.css" />
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.components.rtl.css" />
@@ -78,7 +76,6 @@
     <Content Include="Content\fabric.min.css" />
     <Content Include="Content\fabric.rtl.css" />
     <Content Include="Content\fabric.rtl.min.css" />
-    <Content Include="Content\Office.css" />
     <Content Include="Content\sass\_Office.Color.Variables.scss" />
     <Content Include="Content\sass\_Fabric.ZIndex.Variables.scss" />
     <Content Include="Content\sass\_Fabric.Utilities.scss" />
@@ -112,15 +109,6 @@
     <Content Include="Content\sass\Fabric.Animations.RTL.Output.scss" />
     <Content Include="Content\sass\Fabric.Animations.Output.scss" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="DataBinding\DataBinding.css" />
-    <Content Include="DataBinding\DataBinding.html" />
-    <Content Include="DataBinding\DataBinding.js" />
-    <Content Include="Home\Home.css" />
-    <Content Include="Home\Home.html" />
-    <Content Include="Home\Home.js" />
-    <Content Include="Images\Button32x32.png" />
-    <Content Include="Images\Close.png" />
-    <Content Include="Images\Settings.png" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
@@ -399,8 +387,6 @@
     <Content Include="Scripts\Office\1\zh-tw\outlook_strings.js" />
     <Content Include="Scripts\Office\metadata\endpoints.xml" />
     <Content Include="Scripts\Office\metadata\features.xml" />
-    <Content Include="Scripts\Office\MicrosoftAjax.js" />
-    <Content Include="Visualization.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -428,9 +414,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50736</DevelopmentServerPort>
+          <DevelopmentServerPort>62707</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50736/</IISUrl>
+          <IISUrl>http://localhost:62707/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
