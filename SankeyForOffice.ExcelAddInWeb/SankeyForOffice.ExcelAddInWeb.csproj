@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{568CE53F-922A-4A9F-8561-5B69631BD7BA}</ProjectGuid>
+    <ProjectGuid>{1C17B7FB-E4D1-4798-862C-79F034A08AAC}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SankeyForOffice.ExcelWebAddInWebWebWeb</RootNamespace>
-    <AssemblyName>SankeyForOffice.ExcelWebAddInWebWebWeb</AssemblyName>
+    <RootNamespace>SankeyForOffice.ExcelAddInWeb</RootNamespace>
+    <AssemblyName>SankeyForOffice.ExcelAddInWeb</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44306</IISExpressSSLPort>
+    <IISExpressSSLPort>44372</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -72,8 +72,6 @@
     <Content Include="App\App.html" />
     <Content Include="App\App.js" />
     <Content Include="Scripts\FabricUI\MessageBanner.js" />
-    <None Include="Scripts\Office\1\outlook-win32.debug-vsdoc.js" />
-    <None Include="Scripts\Office\1\office-vsdoc.js" />
     <Content Include="Scripts\Office\1\access-web-16.00.debug.js" />
     <Content Include="Scripts\Office\1\access-web-16.00.js" />
     <Content Include="Scripts\Office\1\ar-sa\office_strings.debug.js" />
@@ -206,6 +204,7 @@
     <Content Include="Scripts\Office\1\nl-nl\outlook_strings.js" />
     <Content Include="Scripts\Office\1\o15apptofilemappingtable.debug.js" />
     <Content Include="Scripts\Office\1\o15apptofilemappingtable.js" />
+    <None Include="Scripts\Office\1\office-vsdoc.js" />
     <Content Include="Scripts\Office\1\office.debug.js" />
     <Content Include="Scripts\Office\1\office.js" />
     <Content Include="Scripts\Office\1\onenote-web-16.00.debug.js" />
@@ -234,6 +233,7 @@
     <Content Include="Scripts\Office\1\outlook-win32-16.01.js" />
     <Content Include="Scripts\Office\1\outlook-win32-16.02.debug.js" />
     <Content Include="Scripts\Office\1\outlook-win32-16.02.js" />
+    <None Include="Scripts\Office\1\outlook-win32.debug-vsdoc.js" />
     <Content Include="Scripts\Office\1\outlookwebapp-15.01.debug.js" />
     <Content Include="Scripts\Office\1\outlookwebapp-15.01.js" />
     <Content Include="Scripts\Office\1\outlookwebapp-15.debug.js" />
@@ -372,9 +372,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>62707</DevelopmentServerPort>
+          <DevelopmentServerPort>63498</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:62707/</IISUrl>
+          <IISUrl>http://localhost:63402/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
